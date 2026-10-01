@@ -1,24 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Sibusiso",
+  "projectType": "saas",
+  "projectName": "iSibusiso Digital Experiences",
+  "projectDescription": "A South African digital agency offering web development, e-commerce, UI/UX design, and digital growth services to startups and small businesses.",
   "theme": "willow",
-  "logo": {
-    "light": "https://media.brand.dev/1794a34a-8c1a-4fc7-8557-ca2d971542ef.svg",
-    "dark": "https://media.brand.dev/1794a34a-8c1a-4fc7-8557-ca2d971542ef.svg"
-  },
-  "favicon": "https://media.brand.dev/9e710eed-3b2f-4d60-bc37-f6caaebbab0b.png",
-  "colors": {
-    "primary": "#000000",
-    "light": "#cc919d",
-    "dark": "#7c7c7c"
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get a Quote",
-      "href": "https://isibusiso-digital.co.za/#contact"
-    }
-  },
+  "primaryColor": "#000000",
+  "lightColor": "#cc919d",
+  "darkColor": "#7c7c7c",
   "navigation": {
     "tabs": [
       {
@@ -82,10 +69,17 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/sibusiso-khanye",
-      "facebook": "https://www.facebook.com/isibusisodigital"
-    }
-  }
+  "keyFeatures": [
+    "Custom web development with React and Node.js",
+    "E-commerce store development with product catalogues and payment integration",
+    "Custom web application development (portals, dashboards, booking systems)",
+    "UI/UX design including brand identity, prototyping, and responsive design",
+    "Digital growth and SEO including technical audits, performance optimisation, and analytics setup",
+    "4-step proven delivery methodology: Discovery, Design, Development, Launch & Growth",
+    "Project enquiry form with 24-hour response guarantee",
+    "GDPR-style cookie consent and privacy-first analytics"
+  ],
+  "publicApiSurface": [
+    "POST /api/contact — Submit a project enquiry (name, email, project type, message)"
+  ]
 }
